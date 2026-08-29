@@ -7,7 +7,7 @@ class Program
         #region first Question
         int pages = 464;
         bool isAvailable = true;
-        if(pages>300&&isAvailable)
+        if (pages > 300 && isAvailable)
         {
             Console.WriteLine("You can borrow this book");
         }
@@ -30,8 +30,9 @@ class Program
 
         #endregion
         #region third Question
-
-
+        int pages2 = 464;
+        string sizeLabel;
+        sizeLabel = (pages2 > 300) ? "Long Book" : "Short Book";
         #endregion
 
 
