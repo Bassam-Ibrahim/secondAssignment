@@ -49,6 +49,15 @@ class Program
         }
 
         #endregion
+        #region sixth Question
+            int x=0;
+        do
+        {
+            Console.WriteLine("Checking book...");
+            x++;
+        } while (x<3);
+
+        #endregion
 
 
 
