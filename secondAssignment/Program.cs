@@ -85,6 +85,17 @@ class Program
             Console.WriteLine(books[i]);
         }
         #endregion
+        #region tenth Question
+        void PrintFirstBook(string[] books)
+        {
+            if (books.Length == 0)
+                return;
 
-    }
+            Console.WriteLine(books[0]);
+        }
+        PrintFirstBook(books);
+        #endregion
+
+ 
+}
 }
