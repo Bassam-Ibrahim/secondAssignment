@@ -64,6 +64,15 @@ class Program
             Console.WriteLine(book);
         }
         #endregion
+        #region eighth Question
+        for (int i = 0; i < books.Length; i++)
+        {
+            if (books[i] == "Refactoring")
+                break;
+
+            Console.WriteLine(books[i]);
+        }
+        #endregion
 
 
     }
