@@ -1,6 +1,7 @@
 ﻿using System;
 class Program
 {
+
     static void Main()
     {
 
@@ -36,30 +37,32 @@ class Program
         #endregion
         #region fourth Question
         string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-        for (int i = 0; i < books.Length; i++) {
-            Console.WriteLine(i+1+"."+books[i]);
-        
+        for (int i = 0; i < books.Length; i++)
+        {
+            Console.WriteLine(i + 1 + "." + books[i]);
+
         }
         #endregion
         #region fifth Question
-        int j=0;
-        while (j<books.Length) {
+        int j = 0;
+        while (j < books.Length)
+        {
             Console.WriteLine(j + 1 + "." + books[j]);
             j++;
         }
 
         #endregion
         #region sixth Question
-            int x=0;
+        int x = 0;
         do
         {
             Console.WriteLine("Checking book...");
             x++;
-        } while (x<3);
+        } while (x < 3);
 
         #endregion
         #region seventh Question
-        foreach(string book in books)
+        foreach (string book in books)
         {
             Console.WriteLine(book);
         }
@@ -73,7 +76,15 @@ class Program
             Console.WriteLine(books[i]);
         }
         #endregion
+        #region ninth Question
+        for (int i = 0; i < books.Length; i++)
+        {
+            if (books[i] == "The Pragmatic Programmer")
+                continue;
 
+            Console.WriteLine(books[i]);
+        }
+        #endregion
 
     }
 }
