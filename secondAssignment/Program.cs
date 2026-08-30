@@ -58,7 +58,12 @@ class Program
         } while (x<3);
 
         #endregion
-
+        #region seventh Question
+        foreach(string book in books)
+        {
+            Console.WriteLine(book);
+        }
+        #endregion
 
 
     }
